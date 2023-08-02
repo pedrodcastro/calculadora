@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 300px;
+    background-color:aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.display {
+    height: 16px;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.item {
+    padding: 16px;
+}
+
+.calc {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
